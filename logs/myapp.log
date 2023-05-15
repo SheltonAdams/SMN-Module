@@ -592,3 +592,36 @@ jakarta.validation.UnexpectedTypeException: HV000030: No validator could be foun
 11:53:23.006 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
 12:34:10.018 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
 12:43:33.388 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+13:49:28.020 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+13:49:28.129 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 5124 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+13:49:28.129 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+13:49:28.177 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:49:28.177 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:49:29.824 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:49:29.847 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:49:29.849 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:49:29.849 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+13:49:29.953 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:49:29.955 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1775 ms
+13:49:30.443 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:49:30.451 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:49:30.479 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:49:30.489 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 2.819 seconds (process running for 3.812)
+13:50:32.391 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:50:32.392 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:50:32.392 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+14:59:33.350 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+14:59:33.412 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 18004 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+14:59:33.413 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+14:59:33.455 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:59:33.455 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:59:34.577 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:59:34.588 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:59:34.589 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:59:34.589 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+14:59:34.659 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:59:34.660 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1203 ms
+14:59:35.052 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:59:35.060 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:59:35.085 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:59:35.093 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 2.036 seconds (process running for 3.17)
