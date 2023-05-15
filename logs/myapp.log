@@ -1,0 +1,594 @@
+02:19:29.567 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+02:19:29.600 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 30816 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:19:29.601 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:19:29.633 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02:19:29.633 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02:19:30.422 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:19:30.428 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:19:30.429 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:19:30.429 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:19:30.478 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:19:30.479 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 844 ms
+02:19:30.798 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:19:30.807 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:19:30.826 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:19:30.834 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 1.468 seconds (process running for 1.895)
+02:19:54.086 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:19:54.086 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:19:54.087 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+02:19:59.452 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:20:25.537 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:20:34.340 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:20:49.491 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:22:07.217 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+02:22:07.224 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:22:07.224 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:22:07.224 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:22:07.230 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:22:07.231 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:24:17.844 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+02:24:17.874 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:24:17.875 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:24:17.905 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02:24:17.905 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02:24:18.705 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:24:18.713 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:24:18.713 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:24:18.713 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:24:18.765 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:24:18.766 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 860 ms
+02:24:19.065 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:24:19.072 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:24:19.086 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:24:19.093 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 1.443 seconds (process running for 1.846)
+02:24:27.465 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:24:27.465 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:24:27.466 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02:24:27.540 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:27:12.547 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:27:18.728 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:27:24.344 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:27:24.524 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.LightFeather.Supervisor.Module.model.Supervisors` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('undefined')]
+02:32:56.524 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 8 deletions, 0 modifications)
+02:32:56.531 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:32:56.531 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:32:56.532 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:32:56.538 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:32:56.539 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:32:56.600 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:32:56.600 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:32:56.738 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:32:56.738 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:32:56.738 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:32:56.738 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:32:56.754 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:32:56.754 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 152 ms
+02:32:56.803 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:32:56.805 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:32:56.807 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:32:56.809 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.227 seconds (process running for 519.562)
+02:32:56.810 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:32:58.239 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (8 additions, 0 deletions, 0 modifications)
+02:32:58.244 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:32:58.244 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:32:58.245 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:32:58.246 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:32:58.307 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:32:58.308 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:32:58.440 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:32:58.441 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:32:58.441 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:32:58.441 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:32:58.457 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:32:58.457 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 148 ms
+02:32:58.511 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:32:58.513 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:32:58.516 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:32:58.518 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.228 seconds (process running for 521.272)
+02:32:58.518 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:33:18.750 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+02:33:18.756 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:33:18.756 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:33:18.758 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:33:18.759 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:33:18.799 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:33:18.799 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:33:18.944 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:33:18.945 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:33:18.945 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:33:18.945 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:33:18.961 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:33:18.961 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 160 ms
+02:33:19.013 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:33:19.015 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:33:19.018 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:33:19.020 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.239 seconds (process running for 541.773)
+02:33:19.020 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:33:38.989 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:33:38.989 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:33:38.989 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+02:33:39.055 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:33:49.205 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:34:27.213 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:34:29.384 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:34:30.583 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:34:32.120 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@1cdbb383,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+02:37:12.299 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+02:42:33.899 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+02:42:33.905 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:42:33.905 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:42:33.906 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:42:33.907 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:42:33.908 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:42:33.953 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:42:33.953 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:42:34.067 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:42:34.068 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:42:34.068 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:42:34.068 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:42:34.083 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:42:34.083 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+02:42:34.119 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:42:34.120 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:42:34.123 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:42:34.124 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.186 seconds (process running for 1096.877)
+02:42:34.124 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:42:56.197 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:42:56.197 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:42:56.197 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+02:48:20.119 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+02:48:20.124 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:48:20.124 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:48:20.124 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:48:20.125 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:48:20.126 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:48:20.176 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:48:20.176 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:48:20.301 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:48:20.301 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:48:20.301 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:48:20.301 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:48:20.316 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:48:20.316 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 138 ms
+02:48:20.354 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:48:20.356 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:48:20.358 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:48:20.360 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.199 seconds (process running for 1443.113)
+02:48:20.360 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:48:21.795 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+02:48:21.800 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:48:21.800 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:48:21.801 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:48:21.801 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:48:21.845 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:48:21.846 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:48:21.947 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:48:21.947 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:48:21.947 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:48:21.947 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:48:21.959 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:48:21.960 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 113 ms
+02:48:21.989 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:48:21.991 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:48:21.992 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:48:21.993 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.163 seconds (process running for 1444.747)
+02:48:21.994 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:48:59.064 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:48:59.064 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:48:59.064 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+02:49:00.580 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+02:49:00.585 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:49:00.586 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:49:00.586 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:49:00.587 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:49:00.588 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:49:00.634 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:49:00.634 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:49:00.738 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:49:00.738 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:49:00.738 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:49:00.738 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:49:00.752 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:49:00.753 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 118 ms
+02:49:00.788 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:49:00.789 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:49:00.792 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:49:00.793 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.173 seconds (process running for 1483.547)
+02:49:00.794 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:49:27.554 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:49:27.554 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:49:27.554 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+02:49:32.972 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+02:50:02.442 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+02:50:39.745 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotEmpty' validating type 'java.lang.Boolean'. Check configuration for 'preferEmail'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+02:51:19.946 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+02:51:19.952 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:51:19.952 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:51:19.952 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:51:19.953 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:51:19.954 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:51:19.998 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:51:19.998 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:51:20.101 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:51:20.101 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:51:20.101 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:51:20.101 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:51:20.114 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:51:20.114 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 115 ms
+02:51:20.146 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:51:20.148 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:51:20.150 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:51:20.151 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.166 seconds (process running for 1622.904)
+02:51:20.151 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:51:20.668 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:51:20.668 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:51:20.669 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+02:57:27.829 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+02:57:27.835 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:57:27.835 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:57:27.835 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+02:57:27.836 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:57:27.837 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:57:27.880 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:57:27.880 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:57:27.980 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:57:27.980 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:57:27.980 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:57:27.980 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:57:27.994 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:57:27.994 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 112 ms
+02:57:28.022 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:57:28.024 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:57:28.025 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:57:28.027 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.159 seconds (process running for 1990.78)
+02:57:28.027 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:57:29.453 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+02:57:29.458 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+02:57:29.458 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+02:57:29.459 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+02:57:29.460 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+02:57:29.504 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 3708 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+02:57:29.505 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+02:57:29.599 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:57:29.600 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:57:29.600 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:57:29.600 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+02:57:29.611 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:57:29.611 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 105 ms
+02:57:29.640 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:57:29.641 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:57:29.643 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:57:29.644 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.151 seconds (process running for 1992.398)
+02:57:29.644 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+02:57:39.087 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:57:39.087 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:57:39.088 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:02:50.565 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+03:02:50.602 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 31768 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+03:02:50.603 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+03:02:50.634 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03:02:50.634 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03:02:51.425 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03:02:51.432 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+03:02:51.433 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:02:51.433 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+03:02:51.491 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:02:51.493 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+03:02:51.838 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+03:02:51.846 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+03:02:51.861 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03:02:51.869 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 1.509 seconds (process running for 1.927)
+03:02:52.676 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:02:52.677 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:02:52.678 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:06:59.542 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+03:06:59.549 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+03:06:59.550 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+03:06:59.550 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+03:06:59.556 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+03:06:59.557 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+03:06:59.619 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 31768 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+03:06:59.620 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+03:06:59.762 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03:06:59.762 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+03:06:59.762 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:06:59.763 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+03:06:59.778 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:06:59.778 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
+03:06:59.832 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+03:06:59.835 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+03:06:59.837 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03:06:59.839 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.239 seconds (process running for 249.897)
+03:06:59.840 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+03:07:04.522 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:07:04.523 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:07:04.523 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+03:11:36.572 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+03:11:36.578 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+03:11:36.578 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+03:11:36.578 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+03:11:36.579 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+03:11:36.580 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+03:11:36.649 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 31768 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+03:11:36.649 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+03:11:36.791 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03:11:36.792 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+03:11:36.792 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:11:36.792 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+03:11:36.808 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:11:36.808 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
+03:11:36.866 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+03:11:36.868 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+03:11:36.871 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03:11:36.872 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.241 seconds (process running for 526.93)
+03:11:36.872 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+03:11:38.294 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:11:38.294 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:11:38.294 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+03:15:19.464 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+03:15:19.470 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+03:15:19.470 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+03:15:19.471 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+03:15:19.472 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+03:15:19.473 INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+03:15:19.534 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 31768 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+03:15:19.534 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+03:15:19.659 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+03:15:19.660 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+03:15:19.660 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:15:19.660 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+03:15:19.675 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:15:19.675 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
+03:15:19.724 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+03:15:19.725 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+03:15:19.727 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+03:15:19.729 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 0.211 seconds (process running for 749.786)
+03:15:19.729 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+03:15:34.920 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:15:34.920 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:15:34.920 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+03:20:47.783 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:25:13.029 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:25:17.034 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:25:20.919 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:25:22.371 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:26:50.515 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+03:27:27.483 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@7043f121,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+10:56:43.701 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+10:56:43.737 INFO  c.L.S.M.SupervisorModuleApplication - Starting SupervisorModuleApplication using Java 17.0.7 with PID 26908 (C:\Users\stree\Downloads\Supervisor Module\Supervisor-Module\build\classes\java\main started by stree in C:\Users\stree\Downloads\Supervisor Module)
+10:56:43.738 INFO  c.L.S.M.SupervisorModuleApplication - No active profile set, falling back to 1 default profile: "default"
+10:56:43.768 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:56:43.769 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:56:44.698 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:56:44.709 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:56:44.710 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:56:44.710 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+10:56:44.778 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:56:44.779 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1009 ms
+10:56:45.129 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:56:45.138 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:56:45.157 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:56:45.165 INFO  c.L.S.M.SupervisorModuleApplication - Started SupervisorModuleApplication in 1.675 seconds (process running for 3.759)
+10:57:34.187 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:57:34.187 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:57:34.188 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:57:42.700 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:05:05.390 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:37:25.603 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:37:34.664 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:37:43.114 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:37:59.489 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:44:50.773 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:47:01.486 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:47:04.797 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:52:43.559 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+11:53:23.006 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+12:34:10.018 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value []; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
+12:43:33.388 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.LightFeather.Supervisor.Module.controller.SupervisorController.submit(com.LightFeather.Supervisor.Module.model.NewNotification): [Field error in object 'newNotification' on field 'phoneNumber': rejected value [16076848900]; codes [Pattern.newNotification.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [newNotification.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljakarta.validation.constraints.Pattern$Flag;@660e25dd,^[0-9]{10}$]; default message [Phone number should be a 10-digit number]] ]
